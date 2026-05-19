@@ -29,12 +29,20 @@
     // [data-config="key"] gets the text content from SITE_CONFIG[key]
     document.querySelectorAll('[data-config]').forEach((el) => {
       const key = el.getAttribute('data-config');
-      if (CFG[key] != null) el.textContent = CFG[key];
+      const val = CFG[key];
+      if (val) {
+        el.textContent = val;
+      } else {
+        // No value configured — hide the surrounding row so the page doesn't
+        // show stale placeholder text like "+91-XXXXXXXXXX".
+        const row = el.closest('li, p');
+        if (row) row.style.display = 'none';
+      }
     });
     // [data-config-href="phone"] / "email" / "justdial"
     document.querySelectorAll('[data-config-href]').forEach((el) => {
       const key = el.getAttribute('data-config-href');
-      if (key === 'phone' && CFG.phone) el.setAttribute('href', 'tel:' + CFG.phone.replace(/\s/g, ''));
+      if (key === 'phone' && CFG.phone) el.setAttribute('href', 'tel:' + CFG.phone.replace(/[\s\-]/g, ''));
       else if (key === 'email' && CFG.email) el.setAttribute('href', 'mailto:' + CFG.email);
       else if (key === 'justdial' && CFG.justdialUrl) el.setAttribute('href', CFG.justdialUrl);
     });

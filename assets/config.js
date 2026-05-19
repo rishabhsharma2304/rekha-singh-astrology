@@ -4,22 +4,27 @@
  * After editing, save and refresh; no build step required.
  */
 window.SITE_CONFIG = {
-  name: "Rekha Singh",
+  name: "Rekha Sinha",
   honorific: "Astrologer",
   tagline: "Vedic Astrology • Kundali • Vastu • Gemstone Consultation",
   location: "Indira Nagar, Lucknow, Uttar Pradesh",
-  experienceYears: 20,
-  consultationsCount: "5,000+",
 
-  // REPLACE the phone/WhatsApp numbers below with real values.
-  // whatsappNumber: country code first, no '+' and no spaces. India = 91XXXXXXXXXX.
-  phone: "+91-XXXXXXXXXX",
-  whatsappNumber: "91XXXXXXXXXX",
+  // Established 2022 per JustDial listing.
+  experienceYears: 4,
+  // Trust signal shown in the hero. Update once review count grows.
+  consultationsCount: "4.8 ★ on JustDial",
+
+  // Live contact — sourced from JustDial listing (May 2026).
+  phone: "+91 84605 05195",
+  whatsappNumber: "918460505195",
   whatsappDefaultMessage: "Namaste Rekha ji, I would like to book an astrology consultation. Please guide me.",
 
-  email: "rekhasingh.astrologer@example.com",
-  address: "Indira Nagar, Lucknow, Uttar Pradesh 226016",
-  hours: "Mon–Sun: 9:00 AM – 8:00 PM",
+  // Email is not listed on JustDial. Leave blank to hide email rows site-wide,
+  // or fill in once an inbox is set up.
+  email: "",
+
+  address: "Near MI Retreat Center, Arjunganj, Indira Nagar, Lucknow 226016, Uttar Pradesh",
+  hours: "Mon–Sun: 7:00 AM – 8:00 PM",
 
   justdialUrl: "https://www.justdial.com/Lucknow/Rekha-Sinha-Astrologer-Indira-Nagar-Lucknow/0522PX522-X522-260128145611-J7E9_BZDET",
 
