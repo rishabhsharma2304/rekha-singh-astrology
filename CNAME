@@ -1,0 +1,8 @@
+# Optional: custom domain for GitHub Pages.
+# To use your own domain (e.g. rekhasinghastrology.in):
+#   1. Remove these comment lines.
+#   2. Replace the line below with your bare domain (no http://, no trailing slash).
+#   3. In your DNS, add an A record pointing your apex domain to GitHub Pages IPs,
+#      OR a CNAME record on www pointing to <your-github-username>.github.io.
+#   4. In your repo: Settings → Pages → Custom domain → enter the same domain.
+# rekhasinghastrology.in
