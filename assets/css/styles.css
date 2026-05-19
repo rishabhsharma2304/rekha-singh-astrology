@@ -343,6 +343,13 @@ section {
   width: 70%; height: auto;
   color: var(--cream-2);
 }
+.portrait-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
+  display: block;
+}
 .portrait-inner .portrait-caption {
   position: absolute; bottom: 12px; left: 0; right: 0;
   text-align: center;
