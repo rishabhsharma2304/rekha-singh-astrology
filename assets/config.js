@@ -15,8 +15,8 @@ window.SITE_CONFIG = {
   consultationsCount: "4.8 ★ on JustDial",
 
   // Live contact — sourced from JustDial listing (May 2026).
-  phone: "+91 84605 05195",
-  whatsappNumber: "918460505195",
+  phone: "+91 91257 58237",
+  whatsappNumber: "919125758237",
   whatsappDefaultMessage: "Namaste Rekha ji, I would like to book an astrology consultation. Please guide me.",
 
   // Email is not listed on JustDial. Leave blank to hide email rows site-wide,
